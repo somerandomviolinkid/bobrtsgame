@@ -23,3 +23,9 @@ v2<int> v2f2i(v2<float> v);
 float randf(float min, float max);
 
 v2<int> bezier(v2<int> a, v2<int> b, v2<int> c, float t);
+
+v2<float> project(v2<float> p);
+
+v2<float> aproject(v2<float> p);
+
+float dist2d(v2<float> a, v2<float> b);

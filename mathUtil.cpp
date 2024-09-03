@@ -33,3 +33,15 @@ float randf(float min, float max) {
 v2<int> bezier(v2<int> a, v2<int> b, v2<int> c, float t) {
 	return v2f2i((v2i2f(a) * ((1.0f - t) * (1.0f - t))) + (v2i2f(b) * (2.0f * (1.0f - t) * t)) + (v2i2f(c) * (t * t)));
 }
+
+v2<float> project(v2<float> p) {
+	
+};
+
+v2<float> aproject(v2<float> p) {
+
+};
+
+float dist2d(v2<float> a, v2<float> b) {
+	return sqrtf(powf(b.x - a.x, 2) + powf(b.y - a.y, 2));
+}

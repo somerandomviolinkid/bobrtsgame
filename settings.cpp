@@ -4,7 +4,7 @@ settings::settings() {
 	std::ifstream settingsFile;
 	settingsFile.open("./config/settings.txt");
 
-	int values[ 6 ];
+	int values[ 6 ] = {0};
 	int i = 0;
 	std::string line;
 	while (std::getline(settingsFile, line)) {
